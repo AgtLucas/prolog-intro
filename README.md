@@ -1,2 +1,1 @@
-prolog-intro
-============
+Introdução ao prolog
