@@ -7,5 +7,8 @@ pai(pedro,paulo).
 pai(pedro,jose).
 pai(paulo,xico).
 pai(paulo,antonio).
+avo(X,Y) :- pai(X,Z), pai(Z,Y).
 
-avo(x,y) :- pai(x,z), pai(z,y).
+avo(X,Y) :- pai(X,Z), pai(Z,Y).
+
+?avo(pedro,x).
