@@ -11,4 +11,5 @@ avo(X,Y) :- pai(X,Z), pai(Z,Y).
 
 avo(X,Y) :- pai(X,Z), pai(Z,Y).
 
-?avo(pedro,x).
+predecessor(X,Y) :- pai(X,Y).
+predecessor(X,Y) :- pai(X,Z), predecessor(Z,Y).
